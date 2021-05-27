@@ -282,19 +282,19 @@ Anxiety Reduction."</a>  <em>In Proceedings of the 28th ACM International Confer
 			<br />
 			<audio class="center-block" id="audio_id1" controls autoplay loop>Your browser can't support HTML5 Audio</audio>
             <script>
-		var iid = document.getElementById("Transfer");
-                function btnRst_Click() {
-                	iid.value = 'Transferring...';
-                	var timer = setTimeout(function(){
-					document.getElementById("audio_id1").src = 
-					"test/transfer/"+document.getElementById('file').files[0].name;
-					iid.value = 'Done!';
-								},3000)
-                }
+// 		var iid = document.getElementById("Transfer");
 //                 function btnRst_Click() {
+//                 	iid.value = 'Transferring...';
+//                 	var timer = setTimeout(function(){
 // 					document.getElementById("audio_id1").src = 
 // 					"test/transfer/"+document.getElementById('file').files[0].name;
+// 					iid.value = 'Done!';
+// 								},3000)
 //                 }
+                function btnRst_Click() {
+					document.getElementById("audio_id1").src = 
+					"test/transfer/"+document.getElementById('file').files[0].name;
+                }
             </script> 
 
 			
